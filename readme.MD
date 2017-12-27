@@ -6,5 +6,5 @@ The app is executed as windows on silent mode, only notifies on erros and genera
 
 ## Instructions
 
-> Define your variables in // App Config
-> Add a shortcut to the HerokuControlApp.vbs on your `%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\`.
+- Define your variables in // App Config
+- Add a shortcut to the HerokuControlApp.vbs on your `%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\`
