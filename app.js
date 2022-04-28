@@ -7,7 +7,7 @@ const moment = require('moment'); // date
 // App config
 const configApps = {
   'bot':{
-    appName: "whispering-escarpment-46164.herokuapp.com",
+    appName: "bomdiacracovians.herokuapp.com",
     frequency: 1000*60*28, // load every 28 minutes
     wakeTime: '5:30', // 24h format
     sleepTime: '3:00',
@@ -20,7 +20,7 @@ const configApps = {
 
 
 // Logger Config
-const logger = new (winston.Logger)({
+const logger = winston.createLogger({
   transports: [
     new (winston.transports.File)({
       name: 'info-log',

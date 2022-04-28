@@ -1,6 +1,6 @@
 {
   "name": "herokucontrolapp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Heroku apps ping control",
   "main": "app.js",
   "scripts": {
@@ -9,8 +9,8 @@
   "author": "Leandro Fernandes lfdo <lfdo20@gmail.com> (https://lfdo20.github.io/lfdo)",
   "license": "MIT",
   "dependencies": {
-    "moment": "^2.20.1",
-    "node-notifier": "^5.1.2",
-    "winston": "^2.4.0"
+    "moment": "^2.29.3",
+    "node-notifier": "^10.0.1",
+    "winston": "^3.7.2"
   }
 }
